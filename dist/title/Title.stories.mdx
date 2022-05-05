@@ -1,0 +1,25 @@
+import { Canvas, Meta, Story, ArgsTable, Description, DescriptionType } from '@storybook/addon-docs';
+import { Title } from "./Title";
+
+<Meta title="MDX/Title" component={Title} />
+
+export const Template = (args) => <Title {...args} />
+
+# Title Component
+
+<Description of={Title} type={DescriptionType.NOTES}>
+    Please, use it for all headers
+</Description>
+
+[Go to place, where're using Title Component](?path=/story/card--payment-card)
+
+<Canvas>
+    <Story name="Title"
+           args={{
+               title: "NEW PROJECT",
+           }}>
+        {Template.bind({})}
+    </Story>
+</Canvas>
+
+<ArgsTable of={Title} />
