@@ -1,13 +1,13 @@
 {
   "name": "test-storybook-oleksii-psaruk",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "This is test storybook by Oleksii Psaruk",
   "author": "Oleksii Psaruk",
   "keywords": ["storybook", "oleksii psaruk", "ui"],
   "main": "dist/index.ts",
   "module": "dist/index.ts",
   "files": ["dist", "README.md"],
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/opsaruk-modularity/storybook_project"
